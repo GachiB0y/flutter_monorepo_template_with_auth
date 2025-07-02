@@ -1,0 +1,25 @@
+name: root
+description: "Workspace root"
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+  flutter: ">=3.32.0 <4.0.0"
+
+dev_dependencies:
+  sizzle_lints: ^2.1.7
+
+workspace:
+  - app
+  # Core
+  - core/common
+  - core/analytics
+  - core/logger
+  - core/rest_client
+  - core/error_reporter
+  - core/ui_library
+  - core/database
+  - core/navigator_api
+  # Feature
+  - feature/settings/settings_api
+  - feature/home
+  - feature/auth

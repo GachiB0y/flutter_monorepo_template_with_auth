@@ -1,0 +1,38 @@
+name: auth
+description: "Auth feature"
+version: 0.0.1
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+  flutter: ">=3.32.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  ## State management
+  flutter_bloc: ^9.1.1
+
+  ## Network
+  http: 1.4.0
+  intercepted_client: 0.0.1
+  dart_jsonwebtoken: 3.2.0
+
+  settings_api:
+    path: ../settings/settings_api
+  ui_library:
+    path: ../../core/ui_library
+  common:
+    path: ../../core/common
+  rest_client:
+    path: ../../core/rest_client
+  take_short:
+    path: ../../app
+  navigator_api:
+    path: ../../core/navigator_api
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
