@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "itl.team.take_short"
+    namespace = "itl.team.template_flutter_claude"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
 
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "itl.team.take_short"
+        applicationId = "itl.team.template_flutter_claude"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

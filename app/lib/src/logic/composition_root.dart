@@ -8,9 +8,9 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:rest_client/rest_client.dart';
 import 'package:settings_api/settings_api.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:take_short/src/model/application_config.dart';
-import 'package:take_short/src/model/dependencies_container.dart';
-import 'package:take_short/src/navigation/navigators/home_navigator.dart';
+import 'package:template_flutter_claude/src/model/application_config.dart';
+import 'package:template_flutter_claude/src/model/dependencies_container.dart';
+import 'package:template_flutter_claude/src/navigation/navigators/home_navigator.dart';
 
 /// A place where Application-Wide dependencies are initialized.
 ///

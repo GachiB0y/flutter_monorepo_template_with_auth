@@ -28,7 +28,7 @@ dependencies:
     path: ../../core/common
   rest_client:
     path: ../../core/rest_client
-  take_short:
+  template_flutter_claude:
     path: ../../app
   navigator_api:
     path: ../../core/navigator_api

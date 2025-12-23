@@ -5,12 +5,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:logger/logger.dart';
-import 'package:take_short/src/bloc/app_bloc_observer.dart';
-import 'package:take_short/src/bloc/bloc_transformer.dart';
-import 'package:take_short/src/logic/composition_root.dart';
-import 'package:take_short/src/model/application_config.dart';
-import 'package:take_short/src/widget/initialization_failed_app.dart';
-import 'package:take_short/src/widget/root_context.dart';
+import 'package:template_flutter_claude/src/bloc/app_bloc_observer.dart';
+import 'package:template_flutter_claude/src/bloc/bloc_transformer.dart';
+import 'package:template_flutter_claude/src/logic/composition_root.dart';
+import 'package:template_flutter_claude/src/model/application_config.dart';
+import 'package:template_flutter_claude/src/widget/initialization_failed_app.dart';
+import 'package:template_flutter_claude/src/widget/root_context.dart';
 
 /// Initializes dependencies and runs app
 Future<void> startup() async {

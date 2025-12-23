@@ -1,9 +1,10 @@
+import 'package:auth/auth.dart' show AuthDependenciesInherited;
 import 'package:common/common.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:settings_api/settings_api.dart';
-import 'package:take_short/src/model/dependencies_container.dart';
+import 'package:template_flutter_claude/src/model/dependencies_container.dart';
 
 class DependenciesScope extends StatelessWidget {
   const DependenciesScope({required this.dependencies, required this.child, super.key});
@@ -19,7 +20,10 @@ class DependenciesScope extends StatelessWidget {
   Widget build(BuildContext context) {
     return _DependenciesInherited(
       dependencies: dependencies,
-      child: SettingsScope(settingsContainer: dependencies.settingsContainer, child: child),
+      child: AuthDependenciesInherited(
+        dependencies: dependencies.authDependencies,
+        child: SettingsScope(settingsContainer: dependencies.settingsContainer, child: child),
+      ),
     );
   }
 }

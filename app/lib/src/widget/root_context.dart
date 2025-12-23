@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:take_short/src/logic/composition_root.dart';
-import 'package:take_short/src/widget/dependencies_scope.dart';
-import 'package:take_short/src/widget/material_context.dart';
+import 'package:template_flutter_claude/src/logic/composition_root.dart';
+import 'package:template_flutter_claude/src/widget/dependencies_scope.dart';
+import 'package:template_flutter_claude/src/widget/material_context.dart';
 import 'package:ui_library/ui_library.dart';
 
 /// [RootContext] is an entry point to the application.

@@ -1,4 +1,4 @@
-# sizzle_starter
+# template_flutter_claude
 
 A new Flutter project.
 

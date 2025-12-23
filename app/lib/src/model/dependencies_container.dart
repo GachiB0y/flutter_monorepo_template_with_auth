@@ -3,7 +3,7 @@ import 'package:error_reporter/error_reporter.dart';
 import 'package:logger/logger.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:settings_api/settings_api.dart';
-import 'package:take_short/src/model/application_config.dart';
+import 'package:template_flutter_claude/src/model/application_config.dart';
 
 /// Container for global dependencies.
 class DependenciesContainer {

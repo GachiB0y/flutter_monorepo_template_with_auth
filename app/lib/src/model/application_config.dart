@@ -1,4 +1,4 @@
-import 'package:take_short/src/model/environment.dart';
+import 'package:template_flutter_claude/src/model/environment.dart';
 
 /// Application configuration
 class ApplicationConfig {

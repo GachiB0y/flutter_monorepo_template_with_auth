@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Welcome to Sizzle Starter!')),
+      appBar: AppBar(title: const Text('Welcome to Starter!')),
       body: ListView(
         children: [
           Padding(

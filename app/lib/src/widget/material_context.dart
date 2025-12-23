@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:home/home.dart';
 import 'package:settings_api/settings_api.dart';
-import 'package:take_short/src/navigation/router.dart';
-import 'package:take_short/src/navigation/routes/pages.dart';
-import 'package:take_short/src/widget/media_query_override.dart';
+import 'package:template_flutter_claude/src/navigation/router.dart';
+import 'package:template_flutter_claude/src/navigation/routes/pages.dart';
+import 'package:template_flutter_claude/src/widget/media_query_override.dart';
 
 /// Entry point for the application that uses [MaterialApp].
 class MaterialContext extends StatelessWidget {

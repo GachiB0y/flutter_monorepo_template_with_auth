@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "take_short",
+      "name": "template_flutter_claude",
       "request": "launch",
       "type": "dart",
       "cwd": "${workspaceFolder}/app",
@@ -12,14 +12,14 @@
       ]
     },
     {
-      "name": "take_short (profile mode)",
+      "name": "template_flutter_claude (profile mode)",
       "request": "launch",
       "type": "dart",
       "cwd": "${workspaceFolder}/app",
       "flutterMode": "profile"
     },
     {
-      "name": "take_short (release mode)",
+      "name": "template_flutter_claude (release mode)",
       "request": "launch",
       "type": "dart",
       "cwd": "${workspaceFolder}/app",
