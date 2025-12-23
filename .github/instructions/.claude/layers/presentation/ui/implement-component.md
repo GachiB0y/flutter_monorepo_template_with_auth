@@ -50,7 +50,7 @@ alwaysApply: false
 
 ## Makefile
 
-Изучи Makefile, чтобы корректно вызывать команды: [Makefile](../../.claude/commands/make_info.md)
+Изучи Makefile, чтобы корректно вызывать команды: [Makefile](../../../commands/make_commands.md)
 
 # RULES
 
