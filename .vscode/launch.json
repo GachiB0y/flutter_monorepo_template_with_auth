@@ -5,24 +5,27 @@
       "name": "template_flutter_claude",
       "request": "launch",
       "type": "dart",
-      "cwd": "${workspaceFolder}/app",
+      "program": "lib/main.dart",
+      "cwd": "${workspaceFolder}",
       "toolArgs": [
         "--dart-define-from-file",
-        "${workspaceFolder}/app/env/.dev.env"
+        "${workspaceFolder}/env/.dev.env"
       ]
     },
     {
       "name": "template_flutter_claude (profile mode)",
       "request": "launch",
       "type": "dart",
-      "cwd": "${workspaceFolder}/app",
+      "program": "lib/main.dart",
+      "cwd": "${workspaceFolder}",
       "flutterMode": "profile"
     },
     {
       "name": "template_flutter_claude (release mode)",
       "request": "launch",
       "type": "dart",
-      "cwd": "${workspaceFolder}/app",
+      "program": "lib/main.dart",
+      "cwd": "${workspaceFolder}",
       "flutterMode": "release"
     }
   ]

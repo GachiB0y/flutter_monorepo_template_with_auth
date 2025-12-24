@@ -1,25 +1,74 @@
-name: root
-description: "Workspace root"
+name: template_flutter_claude
+description: Production-ready template for Flutter applications.
+publish_to: none
+version: 0.0.1+1
 
 environment:
-  sdk: ">=3.8.0 <4.0.0"
-  flutter: ">=3.32.0 <4.0.0"
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  # Flutter SDK
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_bloc: ^9.1.1
+
+  # Storage
+  shared_preferences: ^2.5.3
+
+  # Database
+  drift: ^2.23.0
+  drift_flutter: ^0.2.1
+  sqlite3_flutter_libs: ^0.5.27
+
+  # Network
+  http: ^1.2.2
+  cronet_http: ^1.6.0
+  cupertino_http: ^1.5.1
+  intercepted_client: ^0.0.1
+  path: ^1.9.0
+
+  # Error reporting & Analytics
+  sentry_flutter: ^8.11.0
+  firebase_analytics: ^11.3.6
+  firebase_core: ^3.9.0
+
+  # Utils
+  mockito: ^5.4.4
+  clock: ^1.1.2
+  package_info_plus: ^8.3.0
+  meta: ^1.15.0
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  dart_jsonwebtoken: ^2.15.0
+  collection: ^1.19.0
+  intl: ^0.20.1
+  stack_trace: ^1.12.0
+  bloc: ^9.1.0
 
 dev_dependencies:
+  # Testing
+  flutter_test:
+    sdk: flutter
+
+  # Linting
   sizzle_lints: ^2.1.7
 
-workspace:
-  - app
-  # Core
-  - core/common
-  - core/analytics
-  - core/logger
-  - core/rest_client
-  - core/error_reporter
-  - core/ui_library
-  - core/database
-  - core/navigator_api
-  # Feature
-  - feature/settings/settings_api
-  - feature/home
-  - feature/auth
+  # Code generation
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  drift_dev: ^2.23.0
+
+flutter:
+  uses-material-design: true
+
+flutter_intl:
+  enabled: true
+  main_locale: en
+  class_name: GeneratedLocalizations
+  arb_dir: lib/src/core/constant/localization/translations
+  output_dir: lib/src/core/constant/localization/generated
